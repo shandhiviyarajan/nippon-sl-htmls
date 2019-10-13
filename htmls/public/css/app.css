@@ -1,16 +1,40 @@
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-family: "Poppins", sans-serif; }
 
-header {
+.container {
+  width: 1280px; }
+
+@media (min-width: 1280px) {
+  .container {
+    width: 1280px; } }
+header nav {
+  position: relative; }
+  header nav ul {
+    list-style: none; }
+    header nav ul li {
+      display: inline-block; }
+      header nav ul li a {
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        display: block;
+        text-decoration: none;
+        text-align: Center;
+        padding: 7px 15px; }
+header section.top-header {
+  background: #133A7D; }
+header section.bottom-header {
   background: #14428F;
   height: 95px; }
-  header nav {
-    position: relative; }
-    header nav ul {
-      list-style: none; }
-      header nav ul li {
-        display: inline-block; }
-  header section.top-header {
-    background: #133A7D; }
+header .menu-item-shop-now {
+  background: #ED1D23;
+  border-radius: 22px 2px 22px 2px; }
+header .menu-item-search {
+  height: 44px;
+  width: 44px;
+  background: #133A7D;
+  border-radius: 44px; }
 
 /*# sourceMappingURL=app.css.map */

@@ -5,6 +5,11 @@ $nippon_blue:#133A7D;
 
 
 body{
-
+	-webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 	font-family:$base_font;
+}
+
+.container{
+	width:1280px;
 }

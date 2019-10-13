@@ -1,6 +1,5 @@
 header{
-background:#14428F;
-height:95px;
+
 
 
 nav{
@@ -9,6 +8,17 @@ position: relative;
 		list-style:none;
 		li{
 			display:inline-block;
+
+			a{
+				color:#fff;
+				font-weight:400;
+				font-size:16px;
+				display:block;
+				text-decoration: none;
+
+				text-align:Center;
+				padding:7px 15px;
+			}
 		}
 	}
 }
@@ -20,6 +30,28 @@ background:$nippon_blue;
 a.btn-cart{
 
 }
+
+	}
+
+
+
+	section.bottom-header{
+		background:#14428F;
+		height:95px;
+	}
+
+
+	.menu-item-shop-now{
+		background:#ED1D23;
+		border-radius:22px 2px 22px 2px;
+
+	}
+
+	.menu-item-search{
+		height:44px;
+		width:44px;
+		background:$nippon_blue;
+		border-radius:44px;
 
 	}
 }
