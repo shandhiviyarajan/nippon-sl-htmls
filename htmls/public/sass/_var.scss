@@ -1,15 +1,16 @@
+$base_font: 'Poppins', sans-serif;
+$nippon_blue: #133A7D;
+$nippon_blue_light: #14428F;
+$nippon_red: #ED1D23;
+$nippon_orange: #FF7200;
+$nippon_dark_blue: #102A56;
 
-
-$base_font:'Poppins', sans-serif;
-$nippon_blue:#133A7D;
-
-
-body{
-	-webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-	font-family:$base_font;
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $base_font;
 }
 
-.container{
-	width:1280px;
+.container {
+  width: 1280px;
 }

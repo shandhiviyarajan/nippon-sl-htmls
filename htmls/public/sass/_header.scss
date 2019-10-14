@@ -1,57 +1,214 @@
-header{
+header {
 
+  .site-brand {
 
+    padding: 5px 0px 0px 0px;
+    display: none;
+  }
 
-nav{
-position: relative;
-	ul{
-		list-style:none;
-		li{
-			display:inline-block;
+  nav {
+    position: relative;
+    ul {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      height: 95px;
 
-			a{
-				color:#fff;
-				font-weight:400;
-				font-size:16px;
-				display:block;
-				text-decoration: none;
+      li {
+        display: inline-block;
 
-				text-align:Center;
-				padding:7px 15px;
-			}
-		}
-	}
-}
+        a {
+          color: #fff;
+          font-size: 16px;
+          display: block;
+          text-decoration: none;
+          height: 94px;
+          text-align: Center;
+          font-weight: 500;
+          padding: 34px 20px;
+          border-bottom: 2px solid transparent;
+          @include nippon-transition;
 
-	section.top-header{
+          &:hover {
+            color: #d9d9d9;
+            text-decoration: none;
+            border-bottom: 2px solid #fff;
+            background: darken($nippon_blue, 1%);
+          }
 
-background:$nippon_blue;
+          &:active {
+            background: lighten($nippon_blue, 1%);
+          }
+        }
 
-a.btn-cart{
+        a.menu-item-shop-now {
+          margin-left: 15px;
+          height: auto;
+          padding: 10px 20px;
+          border: none;
+          background: $nippon_red;
+          border-radius: 22px 2px 22px 2px;
 
-}
+          &:hover {
+            background: darken($nippon_blue, 1%);
+          }
 
-	}
+          &:active {
+            background: lighten($nippon_blue, 1%);
+            -webkit-transform: scale(0.98);
+            -moz-transform: scale(0.98);
+            -ms-transform: scale(0.98);
+            -o-transform: scale(0.98);
+            transform: scale(0.98);
+          }
+        }
 
+        a.menu-item-search {
+          margin-left: 15px;
+          padding: 10px 0px;
+          height: 44px;
+          width: 44px;
+          background: $nippon_blue;
+          border-radius: 44px;
+          border: 2px solid transparent;
 
+          &:hover {
+            background: darken($nippon_blue, 2%);
+            border: 2px solid #fff;
+          }
 
-	section.bottom-header{
-		background:#14428F;
-		height:95px;
-	}
+          &:active {
+            background: lighten($nippon_blue, 1%);
+            -webkit-transform: scale(0.98);
+            -moz-transform: scale(0.98);
+            -ms-transform: scale(0.98);
+            -o-transform: scale(0.98);
+            transform: scale(0.98);
+          }
+        }
+      }
+    }
+  }
 
+  section.top-header {
 
-	.menu-item-shop-now{
-		background:#ED1D23;
-		border-radius:22px 2px 22px 2px;
+    background: $nippon_blue;
+    height:40px;
 
-	}
+    .menu-items-left {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .menu-items-right {
+      display: flex;
+      justify-content: flex-end;
+    }
 
-	.menu-item-search{
-		height:44px;
-		width:44px;
-		background:$nippon_blue;
-		border-radius:44px;
+    div.social-icons {
+      border-right: thin solid $nippon_dark_blue;
+      padding: 5px 10px 0px 0px;
+      margin: 0px 20px 0px 0px;
+      a {
+        opacity: 0.6;
+        color: #fff;
+        display: inline-block;
+        margin: 0px 16px 0px 0px;
+        text-decoration: none;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
 
-	}
+    div.contact-no {
+      padding: 5px 20px 0px 0px;
+      margin: 0px 20px 0px 0px;
+      a {
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        img {
+          margin-right: 7px;
+        }
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    div.site-info {
+      padding: 7px 20px 0px 0px;
+      p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0px;
+      }
+    }
+
+    .btn-cart-info {
+      position: relative;
+      span {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background: $nippon_red;
+        color: #fff;
+        left: 15px;
+        top: 2px;
+        font-size: 10px;
+        text-align: center;
+        font-weight: 500;
+        padding-top: 2px;
+        border-radius: 20px;
+      }
+      a {
+        text-decoration: none;
+        padding: 7px 20px 0px 0px;
+        display: block;
+        font-weight: 500;
+        &:hover {
+          text-decoration: none;
+          color: #f1f1f1;
+        }
+        img {
+          margin-right: 7px;
+        }
+        color: #fff;
+      }
+    }
+
+    .btn-user-account {
+
+      border-left: thin solid $nippon_dark_blue;
+      a {
+        padding: 7px 0px 0px 20px;
+        display: block;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: none;
+          color: #f1f1f1;
+        }
+      }
+
+    }
+
+  }
+
+  section.bottom-header {
+    background: $nippon_blue_light;
+    height: 95px;
+  }
+
+  .menu-item-shop-now {
+
+  }
+
 }
