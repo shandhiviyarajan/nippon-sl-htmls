@@ -24,11 +24,10 @@
 
       <!-- custom-css -->
       <link rel="stylesheet" href="../public/css/app.css" />
-
+      <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <!-- jquery ui-->
-      <script type="text/javascript" src="../public/libs/jqueryui/jquery-ui.min.js"></script>
 
+      <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
       <!-- google maps -->
       <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANIg-GgobIKa95MgdD4_WwreBVpregN6c&libraries=places&v=3.31"></script>
@@ -160,118 +159,461 @@
     
 
 
-<section class="home-block-slider">
+<section class="container-xl home-block-slider">
 
 
-        <div class="slider-item">
-            <div class="slider-text">
-                <h2>
-                    Be inspired!
-                </h2>
-                <h3>
-                    Get the latest paint colour trends 2019<br>
-                    from our Nippon Paint catalogue.
-                </h3>
-                <a href="#">
-                    Download PDF
-                </a>
-            </div>
-            <img src="../public/images/slide-1.jpg" alt="">
+    <div class="slider-item">
+        <div class="slider-text">
+            <h2>
+                Be inspired!
+            </h2>
+            <h3>
+                Get the latest paint colour trends 2019<br>
+                from our Nippon Paint catalogue.
+            </h3>
+            <a href="#">
+                Download PDF
+            </a>
         </div>
+        <img src="../public/images/slide-1.jpg" alt="">
+    </div>
 
 </section>
 
-<section class="home-block-paints">
+<section class="container-xl home-block-paints">
+    <div class="row no-gutters">
+        <div class="col-md-3">
+            <a href="#" class="decorative"
+               style="background:url('../public/images/decorative_img.jpg') center center no-repeat; background-size:cover;">
+                <div>
+                    <h2>
+                        Decorative
+                    </h2>
+                    <p>
+                        Over 20 Million Popular Products<br>
+                        Weekly Deals Starting at 30% Off
+                    </p>
 
-    <div class="col-md-3">
+                    <button class="btn btn-outline-light">
+                        View products <img src="../public/svg/right-arrow.svg" alt="">
+                    </button>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="woodcare"
+               style="background:url('../public/images/wood.jpg') center center no-repeat; background-size:cover;">
+                <div>
+                    <h2>
+                        Wood care
+                    </h2>
+                    <p>
+                        Over 20 Million Popular Products<br>
+                        Weekly Deals Starting at 30% Off
+                    </p>
 
-        <a href="#">
+                    <button class="btn btn-outline-light">
+                        View products <img src="../public/svg/right-arrow.svg" alt="">
+                    </button>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="industrial"
+               style="background:url('../public/images/industrial.jpg') center center no-repeat; background-size:cover;">
+                <div>
+                    <h2>
+                        Industrial
+                    </h2>
+                    <p>
+                        Over 20 Million Popular Products<br>
+                        Weekly Deals Starting at 30% Off
+                    </p>
 
-            <h2>
-                Decorative
-            </h2>
-            <p>
-                Over 20 Million Popular Products<br>
-                Weekly Deals Starting at 30% Off
-            </p>
+                    <button class="btn btn-outline-light">
+                        View products <img src="../public/svg/right-arrow.svg" alt="">
+                    </button>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="automobile"
+               style="background:url('../public/images/car.jpg') center center no-repeat; background-size:cover;">
+                <div>
+                    <h2>
+                        Automobile
+                    </h2>
+                    <p>
+                        Over 20 Million Popular Products<br>
+                        Weekly Deals Starting at 30% Off
+                    </p>
 
-            <button class="btn btn-outline-light">
-                View products <img src="../public/svg/right-arrow.svg" alt="">
-            </button>
-
-
-            <img src="../public/images/decorative_img.jpg" alt="">
-            
-        </a>
-
-    </div>
-    <div class="col-md-3">
-
-        <a href="#">
-
-            <h2>
-                Decorative
-            </h2>
-            <p>
-                Over 20 Million Popular Products<br>
-                Weekly Deals Starting at 30% Off
-            </p>
-
-            <button class="btn btn-outline-light">
-                View products <img src="../public/svg/right-arrow.svg" alt="">
-            </button>
-
-
-            <img src="../public/images/decorative_img.jpg" alt="">
-
-        </a>
-
-    </div>
-    <div class="col-md-3">
-
-        <a href="#">
-
-            <h2>
-                Decorative
-            </h2>
-            <p>
-                Over 20 Million Popular Products<br>
-                Weekly Deals Starting at 30% Off
-            </p>
-
-            <button class="btn btn-outline-light">
-                View products <img src="../public/svg/right-arrow.svg" alt="">
-            </button>
-
-
-            <img src="../public/images/decorative_img.jpg" alt="">
-
-        </a>
-
-    </div>
-    <div class="col-md-3">
-
-        <a href="#">
-
-            <h2>
-                Decorative
-            </h2>
-            <p>
-                Over 20 Million Popular Products<br>
-                Weekly Deals Starting at 30% Off
-            </p>
-
-            <button class="btn btn-outline-light">
-                View products <img src="../public/svg/right-arrow.svg" alt="">
-            </button>
-
-
-            <img src="../public/images/decorative_img.jpg" alt="">
-
-        </a>
-
+                    <button class="btn btn-outline-light">
+                        View products <img src="../public/svg/right-arrow.svg" alt="">
+                    </button>
+                </div>
+            </a>
+        </div>
     </div>
 
+
+</section>
+
+
+<section class="container-xl home-featured-products">
+
+    <h2>
+        Featured products
+    </h2>
+
+    <div class="swiper-container fp">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="product-item">
+                    <a href="#">
+                        <div class="product-title">
+                            Nippon Solar shield
+                        </div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="../public/images/paint.jpg"/>
+                            </figure>
+                        </div>
+
+                        <div class="product-price">
+                            $28.00
+                        </div>
+
+                        <button class="btn btn-add-to-cart">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="product-item">
+                    <a href="#">
+                        <div class="product-title">
+                            Nippon Solar shield
+                        </div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="../public/images/paint.jpg"/>
+                            </figure>
+                        </div>
+
+                        <div class="product-price">
+                            $28.00
+                        </div>
+
+                        <button class="btn btn-add-to-cart">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="product-item">
+                    <a href="#">
+                        <div class="product-title">
+                            Nippon Solar shield
+                        </div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="../public/images/paint.jpg"/>
+                            </figure>
+                        </div>
+
+                        <div class="product-price">
+                            $28.00
+                        </div>
+
+                        <button class="btn btn-add-to-cart">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="product-item">
+                    <a href="#">
+                        <div class="product-title">
+                            Nippon Solar shield
+                        </div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="../public/images/paint.jpg"/>
+                            </figure>
+                        </div>
+
+                        <div class="product-price">
+                            $28.00
+                        </div>
+
+                        <button class="btn btn-add-to-cart">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="product-item">
+                    <a href="#">
+                        <div class="product-title">
+                            Nippon Solar shield
+                        </div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="../public/images/paint.jpg"/>
+                            </figure>
+                        </div>
+
+                        <div class="product-price">
+                            $28.00
+                        </div>
+
+                        <button class="btn btn-add-to-cart">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="product-item">
+                    <a href="#">
+                        <div class="product-title">
+                            Nippon Solar shield
+                        </div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="../public/images/paint.jpg"/>
+                            </figure>
+                        </div>
+
+                        <div class="product-price">
+                            $28.00
+                        </div>
+
+                        <button class="btn btn-add-to-cart">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="product-item">
+                    <a href="#">
+                        <div class="product-title">
+                            Nippon Solar shield
+                        </div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="../public/images/paint.jpg"/>
+                            </figure>
+                        </div>
+
+                        <div class="product-price">
+                            $28.00
+                        </div>
+
+                        <button class="btn btn-add-to-cart">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="product-item">
+                    <a href="#">
+                        <div class="product-title">
+                            Nippon Solar shield
+                        </div>
+                        <div class="product-img">
+                            <figure>
+                                <img src="../public/images/paint.jpg"/>
+                            </figure>
+                        </div>
+
+                        <div class="product-price">
+                            $28.00
+                        </div>
+
+                        <button class="btn btn-add-to-cart">
+                            Add to cart
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="swiper-pagination"></div>-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+
+</section>
+
+<section class="container-xl home-news-media">
+    <h2>
+        News & Media
+
+
+        <a href="#" class="btn btn-view-all">
+            View all
+        </a>
+
+    </h2>
+
+    <div class="row">
+        <div class="col-md-4">
+            <a href="#">
+                <div class="news-date">
+                    04 Feb 2019
+                </div>
+                <figure>
+                    <img src="../public/images/news_1.jpg" alt="">
+                </figure>
+                <h3>
+                    Colours which makes your day beautiful
+                </h3>
+                <p>
+                    Writing A Good Headline For Your Advertisement
+                </p>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="#">
+                <div class="news-date">
+                    31 Dec 2019
+                </div>
+                <figure>
+                    <img src="../public/images/news_2.jpg" alt="">
+                </figure>
+                <h3>
+                    Improve Your Business Cards And Enhance Your Sales
+                </h3>
+                <p>
+                    Types Of Paper In Catalog Printing
+                </p>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="#">
+                <div class="news-date">
+                    24 Feb 2019
+                </div>
+                <figure>
+                    <img src="../public/images/news_3.jpg" alt="">
+                </figure>
+                <h3>
+                    Effective Advertising Pointers
+                </h3>
+                <p>
+                    Writing A Good Headline For Your Advertisement
+                </p>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="home-feature-block">
+    <div class="container-xl">
+        <h2>
+            Nippon Sri Lanka - Features
+        </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <a href="#">
+                            <img src="../public/svg/hand.svg" alt="">
+                            <h3>
+                                Premium
+                                Customer
+                            </h3>
+
+                            <p>
+                                Can You Get Free Games For Your Iphone
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a href="#">
+                            <img src="../public/svg/dealer.svg" alt="">
+                            <h3>
+                                Become a <br>
+                                dealer
+                            </h3>
+
+                            <p>
+                                Can You Get Free Games For Your Iphone
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <a href="#">
+                            <img src="../public/svg/brush.svg" alt="">
+                            <h3>
+                                Recent
+                                Projects
+                            </h3>
+                            <p>
+                                Can You Get Free Games For Your Iphone
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     <div class="container features-list">
+         <div class="row">
+             <div class="col-md-4">
+                 <a href="#">
+                     <h3>
+                         Color selection
+                     </h3>
+                     <figure>
+                         <img src="../public/images/color-selection.jpg" alt="">
+                     </figure>
+                 </a>
+             </div>
+             <div class="col-md-4">
+                 <a href="#">
+                     <h3>
+                         Store selector
+                     </h3>
+                     <figure>
+                         <img src="../public/images/store-selector.jpg" alt="">
+                     </figure>
+                 </a>
+             </div>
+             <div class="col-md-4">
+                 <a href="#">
+                     <h3>
+                         Architexture
+                     </h3>
+                     <figure>
+                         <img src="../public/images/archi.jpg" alt="">
+                     </figure>
+                 </a>
+             </div>
+         </div>
+     </div>
+    </div>
 
 </section>
 </main>
@@ -279,6 +621,31 @@
 
 
 </footer>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function(e){
+
+        var featured_products = new Swiper ('.fp', {
+
+            speed: 400,
+            spaceBetween: 0,
+            slidesPerView:'auto',
+
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+
+    });
+
+</script>
 </body>
 </html>
 
